@@ -1,3 +1,5 @@
+export CLICOLOR=1
+export GREP_OPTIONS='--color=auto'
 
 # Setting PATH for MacPython 2.6
 # The orginal version is saved in .bash_profile.pysave
