@@ -35,6 +35,8 @@ set number						"Show line numbers
 
 set laststatus=2				"Show the status line all the time
 
+colorscheme distinguished
+
 " Tab mappings.
 map <leader>tt :tabnew<cr>
 map <leader>te :tabedit
