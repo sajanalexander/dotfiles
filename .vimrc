@@ -17,8 +17,8 @@ set backspace=indent,eol,start	"Intuitive backspacing
 
 set autoindent					"Copy indent form current line when starting a new line
 set smartindent					"Do smart autoindenting when starting a new line
-set tabstop=4					"Global tab width
-set shiftwidth=4				"And again, related
+set tabstop=2					"Global tab width
+set shiftwidth=2				"And again, related
 set expandtab					"Use spaces instead of tabs
 
 set hidden						"Handle multiple buffers better
