@@ -18,12 +18,6 @@ set keymap vi-command
 # Keymaps for when we're in insert (i.e., typing stuff in) mode
 set keymap vi-insert
 
-# Pressing tab will list all completions & select the first one. Pressing it 
-# again will cycle through available completions.
-TAB: menu-complete
-# Shift-TAB cycles completions backward
-"\e[Z": menu-complete-backward
-
 # Option-up/option-down should also apply to insert mode
 "\e\e[A": history-search-backward
 "\e\e[B": history-search-forward
