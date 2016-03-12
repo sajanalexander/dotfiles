@@ -1,6 +1,6 @@
 set nocompatible				"Not vi compatible
 
-silent! call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 
 syntax enable						"Syntax highlighting on 
 filetype plugin indent on         " Turn on file type detection.
@@ -35,7 +35,7 @@ set number						"Show line numbers
 
 set laststatus=2				"Show the status line all the time
 
-colorscheme distinguished
+" colorscheme distinguished
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
